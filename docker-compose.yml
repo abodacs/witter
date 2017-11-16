@@ -1,0 +1,7 @@
+witter:
+    build: .
+    ports:
+        - 8888:8888
+        - 8889:8889
+    volumes:
+        - /D/Mobile Web/The Benefits of Offline First/wittr/public:/usr/src/app/public
